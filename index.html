@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christmas Help Donation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎄 Christmas Help 🎄</h1>
+    <p class="sub-header">“This Christmas, spread joy—make a difference with your donation!” ✨</p>
+  </header>
+
+  <main>
+    <div class="donation-section">
+      <img src="santa-qr.png" alt="Santa holding QR Code" class="qr-image">
+      <div class="donate-box">
+        <h2>Donate Now</h2>
+        <input type="number" id="donationAmount" placeholder="Enter amount ($)" min="1">
+        <button id="donateBtn">Donate</button>
+        <p class="small-note">Your small donation can become a big ray of hope for someone in need. ❤️</p>
+      </div>
+    </div>
+
+    <div class="live-donors">
+      <h3>Recent Donors</h3>
+      <ul id="donorList">
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>❤️ Your small donation can become a big ray of hope for someone in need.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
