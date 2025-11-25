@@ -1,39 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Christmas Help Donation</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Christmas Help Donation</title>
+<style>
+ body { font-family: Arial; background:#f7f0e8; text-align:center; padding:20px;}
+ .card {background:white; padding:20px; border-radius:20px; max-width:500px; margin:auto;}
+ img {max-width:200px;}
+ .qr {margin-top:20px;}
+</style>
 </head>
 <body>
-  <header>
-    <h1>🎄 Christmas Help 🎄</h1>
-    <p class="sub-header">“This Christmas, spread joy—make a difference with your donation!” ✨</p>
-  </header>
-
-  <main>
-    <div class="donation-section">
-      <img src="santa-qr.png" alt="Santa holding QR Code" class="qr-image">
-      <div class="donate-box">
-        <h2>Donate Now</h2>
-        <input type="number" id="donationAmount" placeholder="Enter amount ($)" min="1">
-        <button id="donateBtn">Donate</button>
-        <p class="small-note">Your small donation can become a big ray of hope for someone in need. ❤️</p>
-      </div>
-    </div>
-
-    <div class="live-donors">
-      <h3>Recent Donors</h3>
-      <ul id="donorList">
-      </ul>
-    </div>
-  </main>
-
-  <footer>
-    <p>❤️ Your small donation can become a big ray of hope for someone in need.</p>
-  </footer>
-
-  <script src="script.js"></script>
+<h1>🎄 Merry Christmas 🎄</h1>
+<div class="card">
+ <h2>Your small donation can bring big hope ❤️</h2>
+ <img src="santa.png" alt="Santa holding QR" />
+ <p>Scan & Donate</p>
+ <img class="qr" src="qr.png" alt="QR Code" />
+</div>
 </body>
 </html>
